@@ -1,0 +1,13 @@
+{
+  "name": "hotiro",
+  "description": "Hotiro - WhatsApp Bot Base Bot WA",
+  "scripts": {},
+  "buildpacks": [
+    { "url": "heroku/nodejs" },
+    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" },
+    { "url": "https://github.com/mcollina/heroku-buildpack-webp-binaries" }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

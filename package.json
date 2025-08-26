@@ -1,0 +1,19 @@
+{
+  "name": "hotiro",
+  "version": "1.0.0",
+  "description": "Hotiro: New Base Bot WhatsApp (Bot WA dengan dukungan QR Code & Pairing Code)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^6.7.5",
+    "pino": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
